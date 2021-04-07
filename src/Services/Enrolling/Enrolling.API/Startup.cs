@@ -30,7 +30,10 @@ namespace OpenCodeFoundation.ESchool.Services.Enrolling.API
         }
 
         public IConfiguration Configuration { get; }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="services"></param>
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
